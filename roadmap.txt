@@ -1,0 +1,23 @@
+WAOnly/
+├── main.cpp
+├── common.h
+├── contests.h
+├── contests.cpp
+├── leaderboard.h
+├── leaderboard.cpp
+├── rating.h
+├── rating.cpp
+├── social.h
+├── social.cpp
+└── data/
+    ├── users.dat
+    ├── contests.dat
+    ├── leaderboard.dat
+    ├── solutions.dat
+    └── solutions/
+
+
+    
+Compile command:
+g++ -std=c++17 -Wall -Wextra main.cpp social.cpp rating.cpp leaderboard.cpp contests.cpp -o waonly
+./waonly
